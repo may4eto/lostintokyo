@@ -44,7 +44,7 @@ const Attraction = ({title, description, image, className}) => (
             <p className="lh-title lh-copy-ns mv0 black f6 measure-l">{description}</p>
           </div>
         </div>
-        <img src={`../images/${image}`} className="db" />
+        <img src={`./images/${image}`} className="db" />
       </div>
     </div>
   );
